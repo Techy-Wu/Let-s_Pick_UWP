@@ -138,5 +138,5 @@ Let's Pick UWP 基于UWP架构编写，可以实现对数据的随机任意数�
 	获取软件更新及使用说明请关注本页面或&nbsp;<a href="https://techy-wu.github.io/Let-s_Pick_UWP/">https://techy-wu.github.io/Let-s_Pick_UWP/</a> 
 </p>
 <p>
-	若有任何问题请联系您的系统管理员或电邮&nbsp;<a href="mailto:Techy_Wu@outlook.com">Techy_Wu@outlook.com</a> 
+	若有任何问题请联系填写issue
 </p>
