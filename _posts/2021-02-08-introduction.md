@@ -25,6 +25,7 @@ Let's Pick UWP 可以实现对数据的随机任意数量抽取，在软件数�
 支持包括en-US、zh-Hans等在内的多种语言，德语(de)语言包正在制作中......</br>
 </br>
 ## 系统要求
+</br>
 ### 最低要求
-操作系统: Windows 10, version 1809(10.0; 版本17763)
-处理器: AMD E2-1800 或 Intel Atom D2550
+操作系统: Windows 10, version 1809(10.0; 版本17763)</br>
+处理器: AMD E2-1800 或 Intel Atom D2550</br>
