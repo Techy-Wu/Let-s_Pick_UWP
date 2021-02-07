@@ -51,8 +51,8 @@ home:
   section2: <h2>轻便 美观 高效 的随机抽取解决方案</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/Techy-Wu/Let-s_Pick_UWP" title="View on GitHub"></a></div>
 blog:
-  cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
-  cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
+  cc_license: http://creativecommons.org/licenses/by-nd/4.0/ # A link to CC License of your choice.
+  cc_license_image: /assets/images/theme/cc-by-nd.png # An image of your CC License. 
   footer_content: 轻便 美观 高效 的随机抽取<a href="https://github.com/Techy-Wu/Let-s_Pick_UWP">解决</a>方案.
 
 disqus:
