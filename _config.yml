@@ -24,7 +24,7 @@ sass:
 url: https://techy-wu.github.io/Let-s_Pick_UWP/ # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: / # the subpath of your site, e.g. /blog
 title: Let's Pick UWP
-description: "轻便美观高效的随机抽取解决方案"
+description: "轻量美观高效的随机抽取解决方案"
 keywords: 'pick,solution,uwp-based,software'
 author:
   name: Techy Wu
@@ -48,12 +48,12 @@ author:
       url:
 home:
   section1: <h1>Let's Pick UWP</h1>
-  section2: <h2>轻便 美观 高效 的随机抽取解决方案</h2>
+  section2: <h2>轻量 美观 高效 的随机抽取解决方案</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/Techy-Wu/Let-s_Pick_UWP" title="View on GitHub"></a></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-nd/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-nd.png # An image of your CC License. 
-  footer_content: 轻便 美观 高效 的随机抽取<a href="https://github.com/Techy-Wu/Let-s_Pick_UWP">解决</a>方案.
+  footer_content: 轻量 美观 高效 的随机抽取<a href="https://github.com/Techy-Wu/Let-s_Pick_UWP">解决</a>方案.
 
 disqus:
   shortname: # e.g. yizeng
