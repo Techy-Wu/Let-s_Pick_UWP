@@ -3,7 +3,7 @@ layout: post
 title: "版权许可声明"
 description: ""
 categories: 描述文档
-tags: 全局
+tags: 说明
 redirect_from:
   - /2021/02/08/
 ---
