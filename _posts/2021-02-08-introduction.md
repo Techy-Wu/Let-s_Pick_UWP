@@ -27,5 +27,7 @@ Let's Pick UWP 可以实现对数据的随机任意数量抽取，在软件数�
 ## 系统要求
 <br/>
 ### 最低要求
-操作系统: Windows 10, version 1809(10.0; 版本17763)<br/>
+操作系统: Windows 10^1, version 1809(10.0; 版本17763)<br/>
 处理器: AMD E2-1800 或 Intel Atom D2550<br/>
+
+^1:如果您的操作系统没有达到最低要求，没关系。您可以尝试**winform**版本的Let's Pick
