@@ -40,7 +40,9 @@ redirect_from:
 **检查更新超时**数字框接受不小于1500的整数，数字将作为检查更新时网络不稳定时的最长等待时间<br/>
 Let's Pick UWP 将在每次开机时自动检查更新，如果您的计算机长期处于脱机状态或因为某些的原因访问github不稳定时，请适当缩小该值以缩短 Let's Pick UWP 的启动等待时间<br/>
 <br/>
-###高级
+### 高级
+<br/>
+另请参阅: [高级设置](https://techy-wu.github.io/Let-s_Pick_UWP/blog/2021/02/08/advanced_customize/)
 
 
 [^1]: 只有导入元素组格式资源文件时您才可切换不同的元素组
