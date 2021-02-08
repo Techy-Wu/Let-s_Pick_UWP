@@ -21,7 +21,7 @@ sass:
   style: compressed
 
 # Site Data
-url: https://techy-wu.github.io/Let-s_Pick_UWP/ # the base hostname & protocol for your site, e.g. http://example.com
+url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: / # the subpath of your site, e.g. /blog
 title: Let's Pick UWP
 description: "轻量美观高效的随机抽取解决方案"
