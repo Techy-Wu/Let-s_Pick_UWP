@@ -44,8 +44,9 @@ layout: blog
                         </ul>
                     </div>
                     <div itemprop="articleBody">
+                        <a id="URL_notice" href="{{ content }}"></a> 
                         <script>
-                            var url = "{{ content }}";
+                            var url = document.getElementById('URL_notice').herf;
                             alert(url);
                         </script>
                     </div>
