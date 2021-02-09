@@ -44,7 +44,16 @@ layout: blog
                         </ul>
                     </div>
                     <div itemprop="articleBody">
-                        <iframe height=100% width=100% src="https://www.wenjuan.com/s/UZBZJvPbOp/#" frameborder=0 scrolling="auto" seamless></iframe>
+                        <iframe height=100% width=100% src="https://www.wenjuan.com/s/UZBZJvPbOp/#" id="myiframe" frameborder=0 scrolling="no" onload="changeFrameHeight()"></iframe>
+                        <script>
+                            function changeFrameHeight(){
+                                var ifm= document.getElementById("iframepage"); 
+                                ifm.height=document.documentElement.clientHeight;
+                            }
+                            window.onresize=function(){  
+                                changeFrameHeight();  
+                            } 
+                        </script>
                     </div>
                 </div>
             </div>
