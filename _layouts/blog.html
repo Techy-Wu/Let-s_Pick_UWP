@@ -4,7 +4,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="{{ site.lang }}">
+<html class="no-js" lang="{{ site.lang }}" style="height: 100%">
 <!--<![endif]-->
 
 <head>
@@ -27,7 +27,7 @@ var _hmt = _hmt || [];
     {% endif %}
 </head>
 
-<body>
+<body style="height: 100%">
     {% if site.google_tag_manager %}
         {% include common/gtm-body.html %}
     {% endif %}
@@ -35,13 +35,13 @@ var _hmt = _hmt || [];
     {% include common/notices.html %}
     {% include blog/overlay.html %}
 
-    <div id="page" class="hentry">
+    <div id="page" class="hentry" style="height: 100%">
         {% include blog/header.html %}
 
-        <div class="body animated fadeInDown" role="main">
-            <div class="unit-body">
-                <div class="unit-inner unit-body-inner">
-                    <div class="entry-content">
+        <div class="body animated fadeInDown" role="main" style="height: 100%">
+            <div class="unit-body" style="height: 100%">
+                <div class="unit-inner unit-body-inner" style="height: 100%">
+                    <div class="entry-content" style="height: 100%">
                         {{ content }}
                     </div>
                 </div>
