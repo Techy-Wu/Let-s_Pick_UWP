@@ -45,10 +45,12 @@ layout: blog
                     </div>
                     <div itemprop="articleBody">
                         <script>
-                            var url = "{{ content }}";
-                            url = url.replace("<p>","");
-                            url = url.replace("</p>","");
-                            $("#url").text(url.toString());
+                            $(function(){
+                                var url = "{{ content }}";
+                                url = url.replace("<p>","");
+                                url = url.replace("</p>","");
+                                $("#url").text(url.toString());
+                            });   
                         </script>
                         <input type="text" size="10" maxlength="30" value="url">
                     </div>
