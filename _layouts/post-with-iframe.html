@@ -1,9 +1,9 @@
 ---
 layout: blog
 ---
-<article class="unit-article layout-post" style="height: 100%">
-    <div class="unit-inner unit-article-inner" style="height: 100%">
-        <div itemscope itemtype="http://schema.org/Article" class="content" style="height: 100%">
+<article class="unit-article layout-post">
+    <div class="unit-inner unit-article-inner">
+        <div itemscope itemtype="http://schema.org/Article" class="content">
             <header>
                 <div class="unit-head">
                     <div class="unit-inner unit-head-inner">
@@ -11,8 +11,8 @@ layout: blog
                     </div>
                 </div>
             </header>
-            <div class="bd article-content" style="height: 100%">
-                <div class="entry-content" style="height: 100%">
+            <div class="bd article-content">
+                <div class="entry-content">
                     <div class="meta">
                         <p class="date-publish">
                             {{ site.data.i18n[site.lang].published }}:
@@ -43,7 +43,7 @@ layout: blog
                             {% assign tags_list = page.tags | sort %} {% include helpers/tags_list %}
                         </ul>
                     </div>
-                    <div itemprop="articleBody" style="height: 100%">
+                    <div itemprop="articleBody" style="min-height: 600px;">
                         <iframe height="100%" width="100%" src="https://www.wenjuan.com/s/UZBZJvPbOp/#" frameborder="0" scrolling="no" seamless></iframe>
                     </div>
                 </div>
