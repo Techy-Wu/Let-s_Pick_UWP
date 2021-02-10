@@ -47,8 +47,8 @@ layout: blog
                         <iframe height="100%" width="100%" name="feedback_frame" src="https://www.wenjuan.com/s/UZBZJvPbOp/#" frameborder="0" scrolling="no" seamless sandbox="allow-forms allow-scripts allow-same-origin"></iframe>
                         <script>
                             $('#feedback_frame').load(function() {
-                                $(window.frames["feedback_frame"].document).find(".survey_end").hide();
-                                $(window.frames["feedback_frame"].document).find(".luckdraw_iframe").hide();
+                                $(window.frames["feedback_frame"].document).find(".survey_end").remove();
+                                $(window.frames["feedback_frame"].document).find(".luckdraw_iframe").remove();
                                 })
                         </script>
                     </div>
