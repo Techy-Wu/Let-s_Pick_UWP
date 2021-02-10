@@ -44,7 +44,12 @@ layout: blog
                         </ul>
                     </div>
                     <div itemprop="articleBody">
-                        <iframe height="80%" width="90%" src="https://www.wenjuan.com/s/UZBZJvPbOp/#" frameborder="0" scrolling="no" seamless></iframe>
+                        <iframe height="100%" width="100%" name="feedback_frame" src="https://www.wenjuan.com/s/UZBZJvPbOp/#" frameborder="0" scrolling="no" seamless sandbox="allow-forms"></iframe>
+                        <script>
+                            $('#feedback_frame').load(function() {
+                                $(window.frames["feedback_frame"].document).find(".luckdraw_iframe").hide()
+                                }
+                        </script>
                     </div>
                 </div>
             </div>
