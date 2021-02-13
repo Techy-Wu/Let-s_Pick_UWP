@@ -3,7 +3,7 @@ layout: post
 title: "配置软件"
 description: ""
 categories: [描述文档]
-tags: [说明]
+tags: [说明,使用过程]
 redirect_from:
   - /2021/02/08/
 ---
