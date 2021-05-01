@@ -56,12 +56,12 @@ redirect_from:
 此方法产生的随机数基本没有伪随机性，是比较科学的一种方法，是普遍使用的一种科学随机方法，但系统资源占用较大<br/>
 另请参阅: [微软GUID结构帮助文档](https://docs.microsoft.com/zh-cn/dotnet/api/system.guid?view=net-5.0)<br/>
 
-### 直接从 random.io 获取
+### 直接从 random.org 获取
 对系统资源的占用: 较大(需要运行网络客户端)<br/>
 更新时间: 很短(<<1ms)<br/>
 池循环周期: 无限大<br/>
-此方法产生的随机数是真正的随机数，随机性最强，随机数来自 random.io 网站通过采集大气数据观测得出，充分体现了自然随机性<br/>
-另请参阅: [random.io主页](https://wwww.random.io)<br/>
+此方法产生的随机数是自然随机数，随机性最强，随机数来自 random.org 网站通过采集大气数据观测得出，充分体现了自然随机性<br/>
+另请参阅: [random.org主页](https://wwww.random.org)<br/>
 
 ---
 
