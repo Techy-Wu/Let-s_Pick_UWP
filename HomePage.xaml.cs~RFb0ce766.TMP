@@ -1,0 +1,229 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Foundation;
+using Windows.Foundation.Collections;
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Controls.Primitives;
+using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Navigation;
+using System.Text.RegularExpressions;
+using System.Timers;
+using System.Windows.Input;
+using Windows.Storage;
+using System.Collections;
+
+// https://go.microsoft.com/fwlink/?LinkId=234238 上介绍了“空白页”项模板
+
+namespace Let_s_Pick_UWP
+{
+    /// <summary>
+    /// 可用于自身或导航至 Frame 内部的空白页。
+    /// </summary>
+    public sealed partial class HomePage : Page
+    {
+        DispatcherTimer timer;
+        const int min_interval = 2;
+        const int max_interval = 100;
+        int nowa_interval = 0;
+        int temp_auto_stop_tick_conter;
+        int target_number = 1;
+        int lines_conter = 1;
+        string integer_warning = "Please input an integer!";
+
+        public HomePage()
+        {
+            this.InitializeComponent();
+            timer = new DispatcherTimer();
+            refresh_timer();
+            timer.Tick += Timer_Tick;
+        }
+
+        void set_interval()
+        {
+            timer.Interval = new TimeSpan(0, 0, 0, 0, nowa_interval);
+        }
+
+        void refresh_timer()
+        {
+            temp_auto_stop_tick_conter = GlobalClass.auto_stop_tick;
+            nowa_interval = max_interval;
+            set_interval();
+        }
+
+        private void Timer_Tick(object sender, object e)
+        {
+            int rand;
+            rand = GlobalClass.GenerateRandomNumber() % GlobalClass.all_items.Count;
+            Showing.Text = GlobalClass.all_items[rand].ToString();
+
+            if (GlobalClass.all_items.Count == 1)
+            {
+                pick_one();
+                timer.Stop();
+                ExitStopButton.Begin();
+                StopButton.IsEnabled = false;
+                ExitAccelatingButton.Begin();
+                AccelatingButton.IsEnabled = false;
+                EnterFinishButton.Begin();
+                FinishButton.IsEnabled = true;
+                return;
+            }
+            
+            if(AutoStopSwitch.IsOn == true)
+            {
+                temp_auto_stop_tick_conter--;
+            }
+
+            if (nowa_interval > min_interval)
+            {
+                nowa_interval -= 2;
+                set_interval();
+                return;
+            }
+
+            ExitAccelatingButton.Begin();
+            AccelatingButton.IsEnabled = false;
+            EnterStopButton.Begin();
+            StopButton.IsEnabled = true;
+
+            if (temp_auto_stop_tick_conter == 0)
+            {
+                pick_one();
+                target_number--;
+
+                if (target_number > 0)
+                {
+                    nowa_interval = 1;
+                    set_interval();
+                    return;
+                }
+
+                timer.Stop();
+
+                ExitStopButton.Begin();
+                StopButton.IsEnabled = false;
+                EnterPickButton.Begin();
+                PickButton.IsEnabled = true;
+                number_change();
+            }
+        }
+
+        void pick_one()
+        {
+            TextBlock tb = new TextBlock();
+            tb.Text = Showing.Text.ToString();
+            tb.FontSize = 50;
+
+            if(GlobalClass.s_name_list.Contains(tb.Text) && (int)GlobalClass.s_value_list[GlobalClass.s_name_list.IndexOf(tb.Text)] >lines_conter)
+            {
+                target_number++;
+                return;
+            }
+
+            ResultList.Items.Add(tb);
+            lines_conter++;
+            GlobalClass.result_list.Add(tb.Text);
+            GlobalClass.all_items.Remove(Showing.Text.ToString());
+        }
+
+        private void DownButton_Click(object sender, RoutedEventArgs e)
+        {
+            read_tn();
+            target_number--;
+            TargetNumberBox.Text = target_number.ToString();
+
+            if (target_number <= 0)
+            {
+                target_number = 1;
+                TargetNumberBox.Text = "1";
+            }
+        }
+
+        void read_tn()
+        {
+            if (TargetNumberBox.Text == integer_warning)
+                return;
+
+            target_number = Convert.ToInt32(TargetNumberBox.Text.ToString());
+        }
+
+        private void UpButton_Click(object sender, RoutedEventArgs e)
+        {
+            read_tn();
+            target_number++;
+            TargetNumberBox.Text = target_number.ToString();
+
+            if (target_number > GlobalClass.all_items.Count)
+            {
+                target_number = GlobalClass.all_items.Count;
+                TargetNumberBox.Text = GlobalClass.all_items.Count.ToString();
+            }
+        }
+
+        private void TargetNumberBox_LosingFocus(UIElement sender, LosingFocusEventArgs args)
+        {
+            number_change();
+        }
+
+        void number_change()
+        {
+            try
+            {
+                read_tn();
+            }
+            catch (Exception ex)
+            {
+                TargetNumberBox.Text = "1";
+                TargetNumberBox.SelectAll();
+            }
+
+            if (target_number <= 0)
+            {
+                target_number = 1;
+                TargetNumberBox.Text = "1";
+            }
+            if (target_number > GlobalClass.all_items.Count)
+            {
+                target_number = GlobalClass.all_items.Count;
+                TargetNumberBox.Text = GlobalClass.all_items.Count.ToString();
+            }
+        }
+
+        private void PickButton_Click(object sender, RoutedEventArgs e)
+        {
+            read_tn();
+            refresh_timer();
+            timer.Start();
+
+            ExitPickButton.Begin();
+            PickButton.IsEnabled = false;
+            EnterAccelatingButton.Begin();
+            AccelatingButton.IsEnabled = true;
+        }
+
+        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        {
+            ExitAccelatingButton.Begin();
+            AccelatingButton.IsEnabled = false;
+            ExitStopButton.Begin();
+            StopButton.IsEnabled = false;
+            ExitFinishButton.Begin();
+            FinishButton.IsEnabled = false;
+
+            GlobalClass.result_list.Clear();
+            AutoStopSwitch.IsOn = GlobalClass.auto_stop;
+            Showing.Text = GlobalClass.all_items.Count.ToString() + " " + Showing.Text;
+        }
+
+        private void StopButton_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            temp_auto_stop_tick_conter = 0;
+        }
+    }
+}

@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPage_LanguageNotFitNotice.Text" xml:space="preserve">
+    <value>抱歉，此介面未適配當前語言</value>
+  </data>
+  <data name="HomePage_AccelatingButton.Content" xml:space="preserve">
+    <value>加速中...</value>
+  </data>
+  <data name="HomePage_AutoStopSwitch_Header.Text" xml:space="preserve">
+    <value>自動停止</value>
+  </data>
+  <data name="HomePage_FinishButton.Content" xml:space="preserve">
+    <value>結束</value>
+  </data>
+  <data name="HomePage_PickButton.Content" xml:space="preserve">
+    <value>抽取！</value>
+  </data>
+  <data name="HomePage_Seed.Text" xml:space="preserve">
+    <value>種子</value>
+  </data>
+  <data name="HomePage_Showing.Text" xml:space="preserve">
+    <value>組</value>
+  </data>
+  <data name="HomePage_StopButton.Content" xml:space="preserve">
+    <value>停止！</value>
+  </data>
+  <data name="HomePage_TargetNumberBox_Header.Text" xml:space="preserve">
+    <value>目標數量</value>
+  </data>
+  <data name="MainPage_About.Content" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="MainPage_Home.Content" xml:space="preserve">
+    <value>首頁</value>
+  </data>
+  <data name="MainPage_Open.Content" xml:space="preserve">
+    <value>打開訊息檔案</value>
+  </data>
+  <data name="MainPage_Reload.Content" xml:space="preserve">
+    <value>刷新介面</value>
+  </data>
+  <data name="MainPage_Save.Content" xml:space="preserve">
+    <value>保存結果至檔案</value>
+  </data>
+  <data name="MainPage_Settings.Content" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="SettingPage_AdvancedDescription.Text" xml:space="preserve">
+    <value>高等</value>
+  </data>
+  <data name="SettingPage_AutoStop.Header" xml:space="preserve">
+    <value>自動停止</value>
+  </data>
+  <data name="SettingPage_ImportSettings.Text" xml:space="preserve">
+    <value>從檔案導入設置</value>
+  </data>
+  <data name="SettingPage_Language.Text" xml:space="preserve">
+    <value>語言 / Language</value>
+  </data>
+  <data name="SettingPage_ListDescription.Text" xml:space="preserve">
+    <value>組</value>
+  </data>
+  <data name="SettingPage_PickingDescription.Text" xml:space="preserve">
+    <value>抽取时</value>
+  </data>
+  <data name="SettingPage_RandomSeed_Info.Text" xml:space="preserve">
+    <value>無論是否啓用監視，亂數種子都將在每次打開首頁時自動更新</value>
+  </data>
+  <data name="SettingPage_RandSeed_Visible_Switch.Header" xml:space="preserve">
+    <value>監視亂數種子</value>
+  </data>
+  <data name="SettingPage_RestartButton.Content" xml:space="preserve">
+    <value>重啓</value>
+  </data>
+  <data name="SettingPage_RestartInfo.Text" xml:space="preserve">
+    <value>你需要重啓應用程式以應用新的語言</value>
+  </data>
+  <data name="SettingPage_Surface.Text" xml:space="preserve">
+    <value>介面</value>
+  </data>
+  <data name="SettingPage_TickSet.Header" xml:space="preserve">
+    <value>自動停止計數 (Tick)</value>
+  </data>
+  <data name="SettingPage_ToolBar_Background_Switch.Header" xml:space="preserve">
+    <value>工具欄背景</value>
+  </data>
+  <data name="SettingPage_RandMethod_Selector.Header" xml:space="preserve">
+    <value>亂數提供</value>
+  </data>
+  <data name="rand_dependence_1.Text" xml:space="preserve">
+    <value>月日分秒時格式時間</value>
+  </data>
+  <data name="rand_dependence_2.Text" xml:space="preserve">
+    <value>時間戳(Tick)值</value>
+  </data>
+  <data name="rand_dependence_3.Text" xml:space="preserve">
+    <value>依賴月日分秒時格式時間生成的第一個亂數</value>
+  </data>
+  <data name="rand_dependence_4.Text" xml:space="preserve">
+    <value>依賴時間戳(Tick)值生成的第一個亂數</value>
+  </data>
+  <data name="SettingPage_ToolBar_Foreground_Switch.Header" xml:space="preserve">
+    <value>保留工具欄黑色前景色</value>
+  </data>
+  <data name="HomePage_ProcessingButton.Content" xml:space="preserve">
+    <value>處理中...</value>
+  </data>
+  <data name="SettingPage_Pre_Caculate_Switch.Header" xml:space="preserve">
+    <value>預生成</value>
+  </data>
+  <data name="SettingPage_Pseudorandom_Notice.Text" xml:space="preserve">
+    <value>當前途徑將產生僞亂數</value>
+  </data>
+  <data name="rand_dependence_5.Text" xml:space="preserve">
+    <value>全域唯一識別項 (GUID)</value>
+  </data>
+  <data name="rand_dependence_6.Text" xml:space="preserve">
+    <value>實作密碼編譯亂數產生器 (RNG)</value>
+  </data>
+  <data name="SettingPage_Variable_Seed_Switch.Header" xml:space="preserve">
+    <value>動態種子</value>
+  </data>
+  <data name="MainPage_UpdateTip.Text" xml:space="preserve">
+    <value>發現新版本：%a\n當前版本：%b\n請關注關於界面瞭解更新</value>
+  </data>
+  <data name="SettingPage_Update.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="SettingPage_UpdateSearchTimeout.Header" xml:space="preserve">
+    <value>檢查更新超時 (ms)</value>
+  </data>
+  <data name="HomePage_RandomNumber_Requesting.Text" xml:space="preserve">
+    <value>正在向 random.org 請求自然隨機數</value>
+  </data>
+  <data name="rand_dependence_7.Text" xml:space="preserve">
+    <value>直接從 random.org 獲取</value>
+  </data>
+  <data name="HomePage_RandomNumber_RandomIO_Label.Text" xml:space="preserve">
+    <value>隨機數來自 random.org, 無種子</value>
+  </data>
+</root>

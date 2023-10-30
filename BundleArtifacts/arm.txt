@@ -1,0 +1,8 @@
+MainPackage=C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Let's Pick UWP_2.6.1.0_ARM_Debug.msix
+SymbolPackage=C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\Symbols\Let's Pick UWP_2.6.1.0_ARM_Debug.appxsym
+ResourcePack=C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Let's Pick UWP_2.6.1.0_language-en.msix
+ResourcePack=C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Let's Pick UWP_2.6.1.0_language-zh-hant.msix
+ResourcePack=C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Let's Pick UWP_2.6.1.0_scale-100.msix
+ResourcePack=C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Let's Pick UWP_2.6.1.0_scale-125.msix
+ResourcePack=C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Let's Pick UWP_2.6.1.0_scale-150.msix
+ResourcePack=C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Let's Pick UWP_2.6.1.0_scale-400.msix

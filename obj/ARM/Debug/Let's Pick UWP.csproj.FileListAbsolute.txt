@@ -1,0 +1,61 @@
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\App.xbf
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\AboutPage.xbf
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\HomePage.xbf
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\MainPage.xbf
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\SettingPage.xbf
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Let's Pick UWP.xr.xml
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Let's Pick UWP.exe
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Let's Pick UWP.pdb
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\resources.pri
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\AppxManifest.xml
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Core\AppxManifest.xml
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Core\Let's Pick UWP.exe
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Let's Pick UWP.build.appxrecipe
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\System.Runtime.dll
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\Let's Pick UWP.csprojAssemblyReference.cache
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\App.g.i.cs
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\App.g.cs
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\AboutPage.g.i.cs
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\AboutPage.g.cs
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\HomePage.g.i.cs
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\HomePage.g.cs
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\MainPage.g.i.cs
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\MainPage.g.cs
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\SettingPage.g.i.cs
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\SettingPage.g.cs
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\XamlTypeInfo.g.cs
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\App.xaml
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\AboutPage.xaml
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\HomePage.xaml
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\MainPage.xaml
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\SettingPage.xaml
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\App.xbf
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\AboutPage.xbf
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\HomePage.xbf
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\MainPage.xbf
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\SettingPage.xbf
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\XamlSaveStateFile.xml
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\Let's Pick UWP.csproj.CoreCompileInputs.cache
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\Let's Pick UWP.csproj.CopyComplete
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\Let's Pick UWP.exe
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\Let's Pick UWP.pdb
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\ResourceHandlingTask.state
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\priconfig.xml
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\priconfig.xml.intermediate
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\unfiltered.layout.resfiles
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\filtered.layout.resfiles
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\excluded.layout.resfiles
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\resources.resfiles
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\resources.resfiles.intermediate
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\pri.resfiles
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\pri.resfiles.intermediate
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\qualifiers.txt
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758264200000000.json
+C:\Users\Jerry\source\repos\Let's Pick UWP\bin\ARM\Debug\Core\ForBundle\AppxManifest.xml

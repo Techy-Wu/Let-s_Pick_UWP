@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-en"
+"ResourceDimensions"		"language-en-us"
+
+[Files]
+"C:\Users\Jerry\source\repos\Let's Pick UWP\obj\ARM\Debug\split.language-en.pri"			"resources.pri"

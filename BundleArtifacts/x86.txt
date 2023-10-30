@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Jerry\source\repos\Let's Pick UWP\bin\x86\Debug\Let's Pick UWP_2.6.1.0_x86_Debug.msix
+SymbolPackage=C:\Users\Jerry\source\repos\Let's Pick UWP\obj\x86\Debug\Symbols\Let's Pick UWP_2.6.1.0_x86_Debug.appxsym

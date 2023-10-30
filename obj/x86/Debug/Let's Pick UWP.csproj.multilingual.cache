@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>Strings\zh-Hans\Resources.resw</FileName>
+    <Checksum>174120246951051121102073473251147197241143238</Checksum>
+    <ModifiedTime>2020-12-06T00:18:35.5348435</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Let's Pick UWP.ar.xlf</FileName>
+    <Checksum>13169239234431777153810077174729667165</Checksum>
+    <ModifiedTime>2020-12-06T01:14:39.3241332+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\ar\Resources.resw</FileName>
+    <Checksum>722008873471686370253179839011184122118</Checksum>
+    <ModifiedTime>2020-12-06T01:15:32.1284372+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Let's Pick UWP.de.xlf</FileName>
+    <Checksum>8206102643452109719618837365914239105</Checksum>
+    <ModifiedTime>2020-12-06T01:14:46.0905972+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\de\Resources.resw</FileName>
+    <Checksum>4038672202422713552216166211621249046</Checksum>
+    <ModifiedTime>2020-12-06T01:15:32.1440946+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Let's Pick UWP.el.xlf</FileName>
+    <Checksum>135181183128804714021239642221521756582226</Checksum>
+    <ModifiedTime>2020-12-06T01:14:45.4557219+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\el\Resources.resw</FileName>
+    <Checksum>11111622511542061811592412021162334448218154</Checksum>
+    <ModifiedTime>2020-12-06T01:15:32.1597185+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Let's Pick UWP.es.xlf</FileName>
+    <Checksum>194111145511812124216723250181531602937243</Checksum>
+    <ModifiedTime>2020-12-06T01:14:48.9740602+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\es\Resources.resw</FileName>
+    <Checksum>15620139245186112181932093423321622616325347</Checksum>
+    <ModifiedTime>2020-12-06T01:15:32.1753419+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Let's Pick UWP.fi.xlf</FileName>
+    <Checksum>127292211140170250185140442048522581739</Checksum>
+    <ModifiedTime>2020-12-06T01:14:40.3079638+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\fi\Resources.resw</FileName>
+    <Checksum>982986203147107105123997315519358210119212</Checksum>
+    <ModifiedTime>2020-12-06T01:15:32.1959977+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Let's Pick UWP.fr.xlf</FileName>
+    <Checksum>9113118241411840302105717210318126183172</Checksum>
+    <ModifiedTime>2020-12-06T01:14:53.8216497+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\fr\Resources.resw</FileName>
+    <Checksum>47632487816874111681701068254249114135156</Checksum>
+    <ModifiedTime>2020-12-06T01:15:32.2116683+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Let's Pick UWP.it.xlf</FileName>
+    <Checksum>2512261616566331642001745622520119821817085</Checksum>
+    <ModifiedTime>2020-12-06T01:14:48.13219+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\it\Resources.resw</FileName>
+    <Checksum>7031421271351451781401060713516229208113</Checksum>
+    <ModifiedTime>2020-12-06T01:15:32.2167446+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Let's Pick UWP.ja.xlf</FileName>
+    <Checksum>13175492088223841852322002528915012023245</Checksum>
+    <ModifiedTime>2020-12-06T01:14:44.1765534+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\ja\Resources.resw</FileName>
+    <Checksum>43691334812205551652324819344232165115167</Checksum>
+    <ModifiedTime>2020-12-06T01:15:32.237471+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Let's Pick UWP.ko.xlf</FileName>
+    <Checksum>129209160224621475012551155100185217152186125</Checksum>
+    <ModifiedTime>2020-12-06T01:14:45.6204904+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\ko\Resources.resw</FileName>
+    <Checksum>2495270181321953115022211612176218145233163</Checksum>
+    <ModifiedTime>2020-12-06T01:15:32.2616901+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Let's Pick UWP.pt.xlf</FileName>
+    <Checksum>214117202095616614522714613424217424556207109</Checksum>
+    <ModifiedTime>2020-12-06T01:14:38.5234761+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\pt\Resources.resw</FileName>
+    <Checksum>622321808020529202146165216625524912419484</Checksum>
+    <ModifiedTime>2020-12-06T01:15:32.2785151+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Let's Pick UWP.ru.xlf</FileName>
+    <Checksum>17343239132118786022248131921141521095195</Checksum>
+    <ModifiedTime>2020-12-06T01:14:48.2507464+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\ru\Resources.resw</FileName>
+    <Checksum>17620113418415158861572302539124494199136</Checksum>
+    <ModifiedTime>2020-12-06T01:15:32.2941892+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Let's Pick UWP.sv.xlf</FileName>
+    <Checksum>5910575150131661542341355171118190187252</Checksum>
+    <ModifiedTime>2020-12-06T01:14:52.8926751+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\sv\Resources.resw</FileName>
+    <Checksum>2551081356291158365113240140511481448111</Checksum>
+    <ModifiedTime>2020-12-06T01:15:32.2941892+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Let's Pick UWP.tr.xlf</FileName>
+    <Checksum>1937212240225112218121221284516097194225</Checksum>
+    <ModifiedTime>2020-12-06T01:14:40.7940301+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\tr\Resources.resw</FileName>
+    <Checksum>2465425112316017314325924423319424422691189</Checksum>
+    <ModifiedTime>2020-12-06T01:15:32.3098078+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Let's Pick UWP.ug.xlf</FileName>
+    <Checksum>588892541841917212478631991005614595176</Checksum>
+    <ModifiedTime>2020-12-06T01:14:24.6662961+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\ug\Resources.resw</FileName>
+    <Checksum>2331262462231621892551071281214416249075</Checksum>
+    <ModifiedTime>2020-12-06T01:15:32.3289508+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>

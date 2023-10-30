@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPage_LanguageNotFitNotice.Text" xml:space="preserve">
+    <value>We are sorry but this page has not adapted to current language.</value>
+  </data>
+  <data name="HomePage_AccelatingButton.Content" xml:space="preserve">
+    <value>Accelating...</value>
+  </data>
+  <data name="HomePage_AutoStopSwitch_Header.Text" xml:space="preserve">
+    <value>Automatically Stop</value>
+  </data>
+  <data name="HomePage_FinishButton.Content" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="HomePage_PickButton.Content" xml:space="preserve">
+    <value>Pick!</value>
+  </data>
+  <data name="HomePage_Seed.Text" xml:space="preserve">
+    <value>Seed</value>
+  </data>
+  <data name="HomePage_Showing.Text" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="HomePage_StopButton.Content" xml:space="preserve">
+    <value>Stop!</value>
+  </data>
+  <data name="HomePage_TargetNumberBox_Header.Text" xml:space="preserve">
+    <value>Target Amount</value>
+  </data>
+  <data name="MainPage_About.Content" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="MainPage_Home.Content" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="MainPage_Open.Content" xml:space="preserve">
+    <value>Open Source File</value>
+  </data>
+  <data name="MainPage_Reload.Content" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="MainPage_Save.Content" xml:space="preserve">
+    <value>Save the Result to File</value>
+  </data>
+  <data name="MainPage_Settings.Content" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SettingPage_AdvancedDescription.Text" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="SettingPage_AutoStop.Header" xml:space="preserve">
+    <value>Automatically Stop</value>
+  </data>
+  <data name="SettingPage_ImportSettings.Text" xml:space="preserve">
+    <value>Import settings from storage</value>
+  </data>
+  <data name="SettingPage_Language.Text" xml:space="preserve">
+    <value>Language / 语言</value>
+  </data>
+  <data name="SettingPage_ListDescription.Text" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="SettingPage_PickingDescription.Text" xml:space="preserve">
+    <value>While Picking</value>
+  </data>
+  <data name="SettingPage_RandomSeed_Info.Text" xml:space="preserve">
+    <value>The random seed would automatically update while opening the homepage no matter it is visible or not</value>
+  </data>
+  <data name="SettingPage_RandSeed_Visible_Switch.Header" xml:space="preserve">
+    <value>Display Random Seed</value>
+  </data>
+  <data name="SettingPage_RestartButton.Content" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="SettingPage_RestartInfo.Text" xml:space="preserve">
+    <value>You need to restart the application to apply the new language</value>
+  </data>
+  <data name="SettingPage_Surface.Text" xml:space="preserve">
+    <value>User Interface (UI)</value>
+  </data>
+  <data name="SettingPage_TickSet.Header" xml:space="preserve">
+    <value>Automatically Stop Counter (Tick)</value>
+  </data>
+  <data name="SettingPage_ToolBar_Background_Switch.Header" xml:space="preserve">
+    <value>Toolbar Background</value>
+  </data>
+  <data name="SettingPage_RandMethod_Selector.Header" xml:space="preserve">
+    <value>Random Dependence</value>
+  </data>
+  <data name="rand_dependence_1.Text" xml:space="preserve">
+    <value>Time Formated to MMDD-Min-Sec-Hour</value>
+  </data>
+  <data name="rand_dependence_2.Text" xml:space="preserve">
+    <value>Time Unix Epoch (Tick) Value</value>
+  </data>
+  <data name="rand_dependence_3.Text" xml:space="preserve">
+    <value>1st Result of Time Formated to MMDD-Min-Sec-Hour</value>
+  </data>
+  <data name="rand_dependence_4.Text" xml:space="preserve">
+    <value>1st Result of Unix Epoch (Tick) Value</value>
+  </data>
+  <data name="SettingPage_ToolBar_Foreground_Switch.Header" xml:space="preserve">
+    <value>Retain Toolbar Foreground Black</value>
+  </data>
+  <data name="HomePage_ProcessingButton.Content" xml:space="preserve">
+    <value>Processing...</value>
+  </data>
+  <data name="SettingPage_Pre_Caculate_Switch.Header" xml:space="preserve">
+    <value>Pre Release</value>
+  </data>
+  <data name="SettingPage_Pseudorandom_Notice.Text" xml:space="preserve">
+    <value>The current method would lead to a Pseudorandom</value>
+  </data>
+  <data name="rand_dependence_5.Text" xml:space="preserve">
+    <value>Cryptographic Random Number Generator (RNG)</value>
+  </data>
+  <data name="rand_dependence_6.Text" xml:space="preserve">
+    <value>Globally Unique Identifier (GUID)</value>
+  </data>
+  <data name="SettingPage_Variable_Seed_Switch.Header" xml:space="preserve">
+    <value>Variable Seed</value>
+  </data>
+  <data name="MainPage_UpdateTip.Text" xml:space="preserve">
+    <value>New version found : %a\nCurrent version : %b\nPlease open About Page to consult the latest version</value>
+  </data>
+  <data name="SettingPage_Update.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="SettingPage_UpdateSearchTimeout.Header" xml:space="preserve">
+    <value>Search Update Timeout (ms)</value>
+  </data>
+  <data name="HomePage_RandomNumber_Requesting.Text" xml:space="preserve">
+    <value>Requesting natural random numbers from random.org</value>
+  </data>
+  <data name="rand_dependence_7.Text" xml:space="preserve">
+    <value>Directly from random.org</value>
+  </data>
+  <data name="HomePage_RandomNumber_RandomIO_Label.Text" xml:space="preserve">
+    <value>Random numbers from random.org, No seed</value>
+  </data>
+</root>

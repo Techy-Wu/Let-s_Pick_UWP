@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="6d986a2b-848c-426b-99d4-0d5f22d9dd0c" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Language>ZH-HANS</Language>
+			<Scale>200</Scale>
+			<TargetSize>256,16,24,32,48</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="AboutPage.xbf" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/AboutPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App.xbf" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HomePage.xbf" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/HomePage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Let's Pick UWP.xr.xml" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/Let's Pick UWP.xr.xml">
+				<Candidate type="Path">
+					<Value>Let's Pick UWP.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SettingPage.xbf" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/SettingPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="LargeTile.png" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/Assets/LargeTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LargeTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallTile.png" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/Assets/SmallTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SmallTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-48, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<ResourceMapSubtree name="AboutPage_LanguageNotFitNotice">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/AboutPage_LanguageNotFitNotice/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>很抱歉，此页面未适配当前语言</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="HomePage_AccelatingButton">
+				<NamedResource name="Content" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/HomePage_AccelatingButton/Content">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>加速中...</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="HomePage_AutoStopSwitch_Header">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/HomePage_AutoStopSwitch_Header/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>自动停止</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="HomePage_FinishButton">
+				<NamedResource name="Content" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/HomePage_FinishButton/Content">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>结束</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="HomePage_PickButton">
+				<NamedResource name="Content" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/HomePage_PickButton/Content">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>抽取!</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="HomePage_ProcessingButton">
+				<NamedResource name="Content" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/HomePage_ProcessingButton/Content">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>处理中...</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="HomePage_RandomNumber_RandomIO_Label">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/HomePage_RandomNumber_RandomIO_Label/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>随机数来自 random.org, 无种子</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="HomePage_RandomNumber_Requesting">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/HomePage_RandomNumber_Requesting/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>正在向 random.org 请求真随机数</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="HomePage_Seed">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/HomePage_Seed/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>种子</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="HomePage_Showing">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/HomePage_Showing/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>组</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="HomePage_StopButton">
+				<NamedResource name="Content" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/HomePage_StopButton/Content">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>停止!</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="HomePage_TargetNumberBox_Header">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/HomePage_TargetNumberBox_Header/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>目标数量</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MainPage_About">
+				<NamedResource name="Content" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/MainPage_About/Content">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>关于</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MainPage_Home">
+				<NamedResource name="Content" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/MainPage_Home/Content">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>主页</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MainPage_Open">
+				<NamedResource name="Content" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/MainPage_Open/Content">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>打开资源文件</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MainPage_Reload">
+				<NamedResource name="Content" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/MainPage_Reload/Content">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>刷新页面</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MainPage_Save">
+				<NamedResource name="Content" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/MainPage_Save/Content">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>保存结果到文件</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MainPage_Settings">
+				<NamedResource name="Content" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/MainPage_Settings/Content">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>设置</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MainPage_UpdateTip">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/MainPage_UpdateTip/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>发现新版本：%a\n当前版本：%b\n请移步关于页面查看更新</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="rand_dependence_1">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/rand_dependence_1/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>月日分秒时格式时间</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="rand_dependence_2">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/rand_dependence_2/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>时间戳(Tick)值</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="rand_dependence_3">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/rand_dependence_3/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>依赖月日分秒时格式时间生成的第一个随机数</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="rand_dependence_4">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/rand_dependence_4/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>依赖时间戳(Tick)值生成的第一个随机数</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="rand_dependence_5">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/rand_dependence_5/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>加密随机数生成器 (RNG)</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="rand_dependence_6">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/rand_dependence_6/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>全局唯一标识符 (GUID)</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="rand_dependence_7">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/rand_dependence_7/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>直接从 random.org 获取</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_AdvancedDescription">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_AdvancedDescription/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>高级</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_AutoStop">
+				<NamedResource name="Header" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_AutoStop/Header">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>自动停止</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_ImportSettings">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_ImportSettings/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>从文件导入设置</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_Language">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_Language/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>语言 / Language</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_ListDescription">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_ListDescription/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>组</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_PickingDescription">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_PickingDescription/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>抽取时</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_Pre_Caculate_Switch">
+				<NamedResource name="Header" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_Pre_Caculate_Switch/Header">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>预生成</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_Pseudorandom_Notice">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_Pseudorandom_Notice/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>当前方式将产生伪随机数</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_RandMethod_Selector">
+				<NamedResource name="Header" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_RandMethod_Selector/Header">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>随机数依赖源</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_RandomSeed_Info">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_RandomSeed_Info/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>无论是否显示随机数种子，随机数种子都将在每次打开主页时自动更新</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_RandSeed_Visible_Switch">
+				<NamedResource name="Header" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_RandSeed_Visible_Switch/Header">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>显示随机数种子</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_RestartButton">
+				<NamedResource name="Content" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_RestartButton/Content">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>重启</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_RestartInfo">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_RestartInfo/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>你需要重启应用程序以应用新的语言</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_Surface">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_Surface/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>界面</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_TickSet">
+				<NamedResource name="Header" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_TickSet/Header">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>自动停止计数 (Tick)</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_ToolBar_Background_Switch">
+				<NamedResource name="Header" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_ToolBar_Background_Switch/Header">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>工具栏背景</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_ToolBar_Foreground_Switch">
+				<NamedResource name="Header" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_ToolBar_Foreground_Switch/Header">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>保持工具栏黑色前景色</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_Update">
+				<NamedResource name="Text" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_Update/Text">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>更新</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_UpdateSearchTimeout">
+				<NamedResource name="Header" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_UpdateSearchTimeout/Header">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>检查更新超时 (ms)</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingPage_Variable_Seed_Switch">
+				<NamedResource name="Header" uri="ms-resource://6d986a2b-848c-426b-99d4-0d5f22d9dd0c/Resources/SettingPage_Variable_Seed_Switch/Header">
+					<Candidate qualifiers="Language-ZH-HANS" isDefault="true" type="String">
+						<Value>动态种子</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

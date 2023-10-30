@@ -1,0 +1,133 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Let_s_Pick_UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:Let_s_Pick_UWP"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="727"
+    d:DesignWidth="666"
+                        
+                          
+    mc:Ignorable="d">
+
+
+    <Page.Background>
+        <AcrylicBrush
+            BackgroundSource="HostBackdrop"
+            TintColor="White"
+            TintOpacity="0.4" />
+    </Page.Background>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock x:ConnectionId='2'
+            x:Name="UpdateTip"
+            x:Uid="MainPage_UpdateTip"
+            Visibility="Collapsed" />
+
+        <StackPanel x:ConnectionId='3'
+            x:Name="titlebar"
+            Grid.Row="0"
+            Grid.Column="0"
+            VerticalAlignment="Stretch"
+            Orientation="Horizontal">
+            <Button x:ConnectionId='12'
+                x:Name="title_back"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Background="Transparent"
+                FontFamily="Segoe MDL2 Assets"
+                Visibility="Collapsed">
+                <FontIcon
+                    FontFamily="Segoe MDL2 Assets"
+                    FontSize="15"
+                    Glyph="&#xE830;" />
+            </Button>
+            <TextBlock x:ConnectionId='13'
+                x:Name="titletext"
+                Margin="10,0,0,0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontFamily="Segoe UI"
+                FontSize="12"
+                Text="Let's Pick UWP" />
+            <StackPanel.Background>
+                <AcrylicBrush
+                    BackgroundSource="HostBackdrop"
+                    FallbackColor="{StaticResource SystemAccentColor}"
+                    TintColor="{ThemeResource SystemAccentColor}"
+                    TintOpacity="0.5" />
+            </StackPanel.Background>
+        </StackPanel>
+        <NavigationView x:ConnectionId='4'
+            x:Name="NavigationView"
+            x:Uid="MainPage_NavigationView"
+            Grid.Row="1"
+            Grid.Column="0"
+                                                        
+            IsBackButtonVisible="Collapsed"
+            IsBackEnabled="True"
+            IsHoldingEnabled="False"
+            IsSettingsVisible="False"
+            PaneDisplayMode="LeftCompact">
+            <NavigationView.Background>
+                <AcrylicBrush
+                    BackgroundSource="Backdrop"
+                    TintColor="WhiteSmoke"
+                    TintOpacity="0.2" />
+            </NavigationView.Background>
+            <NavigationView.MenuItems>
+                <NavigationViewItem x:ConnectionId='5'
+                    x:Name="Home"
+                    x:Uid="MainPage_Home"
+                    Content="Home Page"
+                    Icon="Home"
+                                         />
+                <NavigationViewItem x:ConnectionId='6'
+                    x:Name="Reload"
+                    x:Uid="MainPage_Reload"
+                    Content="Refresh"
+                    Icon="Refresh"
+                                           />
+                <NavigationViewItem x:ConnectionId='7'
+                    x:Name="Open"
+                    x:Uid="MainPage_Open"
+                    Content="Open"
+                    Icon="OpenLocal"
+                                         />
+                <NavigationViewItem x:ConnectionId='8'
+                    x:Name="Save"
+                    x:Uid="MainPage_Save"
+                    Content="Save"
+                    Icon="SaveLocal"
+                                         />
+            </NavigationView.MenuItems>
+            <NavigationView.PaneFooter>
+                <StackPanel>
+                    <NavigationViewItem x:ConnectionId='9'
+                        x:Name="About"
+                        x:Uid="MainPage_About"
+                        Content="About"
+                        Icon="Flag"
+                                              />
+                    <NavigationViewItem x:ConnectionId='10'
+                        x:Name="Settings"
+                        x:Uid="MainPage_Settings"
+                        Content="Settings"
+                        Icon="Setting"
+                                                 />
+                </StackPanel>
+            </NavigationView.PaneFooter>
+            <Frame x:ConnectionId='11' x:Name="contentFrame"                                />
+        </NavigationView>
+    </Grid>
+</Page>
+
