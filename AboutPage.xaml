@@ -1,0 +1,242 @@
+﻿<Page
+    x:Class="Let_s_Pick_UWP.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:Let_s_Pick_UWP"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="1791"
+    d:DesignWidth="944"
+    Loading="Page_Loading"
+    mc:Ignorable="d">
+
+    <ScrollViewer VerticalScrollMode="Enabled">
+        <StackPanel Margin="20" Orientation="Vertical">
+            <StackPanel VerticalAlignment="Stretch" Orientation="Horizontal">
+                <Image Source="Assets/Square44x44Logo.scale-200.png" />
+                <Line
+                    Margin="0,0,10,0"
+                    Stroke="Black"
+                    StrokeThickness="4"
+                    X1="0"
+                    X2="0"
+                    Y1="10"
+                    Y2="85" />
+                <TextBlock
+                    x:Name="SoftwareName"
+                    x:Uid="AboutPage_SoftwareName"
+                    FontSize="70"
+                    FontWeight="Bold"
+                    Text="Let's Pick UWP" />
+            </StackPanel>
+            <TextBlock
+                x:Name="LanguageNotFitNotice"
+                x:Uid="AboutPage_LanguageNotFitNotice"
+                FontSize="20"
+                Foreground="SkyBlue"
+                Text="This page has not translated yet." />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="5*" MinWidth="190" />
+                    <ColumnDefinition Width="20*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <TextBlock
+                    x:Name="VersionLabel"
+                    x:Uid="AboutPage_VersionLabel"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    FontSize="25"
+                    Text="Version:" />
+                <TextBlock
+                    x:Name="version_box"
+                    x:Uid="AboutPage_VersionBox"
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    FontSize="25"
+                    Tapped="Version_box_Tapped"
+                    Text="0" />
+                <TextBlock
+                    x:Uid="AboutPage_DesignerLabel"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    FontSize="25"
+                    Text="Designed by:" />
+                <TextBlock
+                    x:Uid="AboutPage_DesignerBox"
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    FontSize="25"
+                    Text="Techy Wu" />
+                <TextBlock
+                    x:Uid="AboutPage_CoderLabel"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    FontSize="25"
+                    Text="Coded by:" />
+                <TextBlock
+                    x:Uid="AboutPage_CoderBox"
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    FontSize="25"
+                    Text="Techy Wu" />
+                <TextBlock
+                    x:Uid="AboutPage_SupportURLLabel"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    FontSize="25"
+                    Text="Support Site:" />
+                <TextBlock
+                    x:Uid="AboutPage_SupportURLBox"
+                    Grid.Row="3"
+                    Grid.Column="2"
+                    Grid.ColumnSpan="2"
+                    FontFamily="Segoe UI"
+                    FontSize="25"
+                    Tapped="TextBlock_Tapped"
+                    Text="https://techy-wu.github.io/Let-s_Pick_UWP/" />
+                <TextBlock
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    Grid.ColumnSpan="2"
+                    FontSize="25"
+                    Text="© Techy Wu 2023" />
+                <TextBlock
+                    x:Uid="AboutPage_SupportSiteRefferenceNotification"
+                    Grid.Row="5"
+                    Grid.Column="1"
+                    Grid.ColumnSpan="2"
+                    FontSize="25"
+                    Text="Browse our website for any available supports." />
+                <StackPanel
+                    Grid.Row="6"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="3"
+                    Orientation="Vertical">
+                    <RichTextBlock
+                        Margin="20"
+                        FontFamily="Segoe UI"
+                        FontSize="20">
+                        <Paragraph FontFamily="Segoe UI">使用注意：</Paragraph>
+                        <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">应用程序在文件读写时仅支持 UTF-8 编码和带有BOM的 UTF-8 编码的文件，导入文件时请确认文件的编码方式，若使用其它编码将出现乱码或触发应用程序闪退。由于UWP的权限管理较特殊，在文件保存时暂时不提供任意位置保存的功能，当按下保存文件按钮后应用程序将在安全目录中创建文件并打开资源管理器，请用户自行在资源管理器中移动文件到其它文件夹中。</Paragraph>
+                        <Paragraph FontFamily="Segoe UI" />
+                        <Paragraph FontFamily="Segoe UI">版本特性：</Paragraph>
+                        <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.6.2 (Released on 20231127)</Paragraph>
+                        <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">提高了多语言翻译覆盖率</Paragraph>
+                    </RichTextBlock>
+                    <Button
+                        x:Name="ShowHistory"
+                        Margin="20"
+                        Content="显示迭代历史"
+                        FontSize="20"
+                        Tapped="ShowHistory_Tapped" />
+                    <StackPanel>
+                        <RichTextBlock
+                        x:Name="UpdateHistory"
+                        Margin="20"
+                        FontFamily="Segoe UI"
+                        FontSize="20"
+                        Visibility="Collapsed">
+                            <Paragraph FontFamily="Segoe UI">迭代历史：</Paragraph>
+                            <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.6.1 (Released on 20210501)</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">修复从 random.org 服务器获取随机数闪退的问题</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">更正了部分表述，尤其是 random.org 的拼写问题</Paragraph>
+                            <Paragraph FontFamily="Segoe UI" />
+                            <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.6 (Released on 20210218)</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">新增从 random.io 获取随机数的功能</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">优化了查询更新的方式显著提高速率</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">修复了等待动画</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">更正了部分表述</Paragraph>
+                            <Paragraph FontFamily="Segoe UI" />
+                            <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.5.2 (Released on 20210205)</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">增加了检查更新超时时间的设置</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">更改了部分表述</Paragraph>
+                            <Paragraph FontFamily="Segoe UI" />
+                            <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.5.1 (Released on 20210124)</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">更改了部分表述和界面布置</Paragraph>
+                            <Paragraph FontFamily="Segoe UI" />
+                            <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.5 (Released on 20210117)</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">优化了界面UI，自动根据背景色设置有背景部分的文字前景色</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">新增了网络接口，在每次启动时自动检测更新</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">修复了亚克力效果消失时的背景消失问题</Paragraph>
+                            <Paragraph FontFamily="Segoe UI" />
+                            <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.3 (Released on 20201205)</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">新增动态种子功能</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">优化了界面UI，将亚克力材质拓展到标题栏和工具栏背景</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">修复了等待动画</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">使用变化速率美化了等待动画</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">更正了部分表述</Paragraph>
+                            <Paragraph FontFamily="Segoe UI" />
+                            <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.2 (Released on 20201129)</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">新增RNG和GUID两种随机数生成方案，实现真随机数生成</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">新增预生成功能，低性能计算机使用此方案可以通过提前计算牺牲部分随机性的途径以提高运行速率</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">新增等待动画，并完善了原有动画，增强与用户的交互</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">修复了抽取多个条目时呈现出的停止按钮无效的问题</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">修复了随机数生成导致的软件崩溃问题</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">修改了部分表述和图标</Paragraph>
+                            <Paragraph FontFamily="Segoe UI" />
+                            <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.1 (Released on 20201115)</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">新增了3种随机数种子来源并允许用户自行选择</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">新增了工具栏前景设置以满足不同主题色要求</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">图标化了设置页面</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">换用了更安全的配置文件</Paragraph>
+                            <Paragraph FontFamily="Segoe UI" />
+                            <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.0.2 (Released on 20201031)</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">优化了随机数种子来源</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">增加了随机数种子的显示</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">优化了大屏触控的按键响应</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">修正了部分表述</Paragraph>
+                            <Paragraph FontFamily="Segoe UI" />
+                            <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.0.1 (Released on 20201024)</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">修正了结果列表被覆盖的问题</Paragraph>
+                            <Paragraph FontFamily="Segoe UI" />
+                            <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.0 (Released on 20201017)</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">换用了种子基于更小时间间隔的随机数</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">增加了“组”的定义，用户可以同时导入多个元素组并在设置页面中选定使用的元素组</Paragraph>
+                            <Paragraph Margin="108,0,0,0" FontFamily="Segoe UI">关于“组”的使用：</Paragraph>
+                            <Paragraph Margin="144,0,0,0" FontFamily="Segoe UI">原有元素资源文件的更改：您只需要在原来的元素资源文件（列表型）基础上，在头部和尾部各增加一行并写上&quot;#&quot;标识符即可升级为元素资源文件（组型）</Paragraph>
+                            <Paragraph Margin="144,0,0,0" FontFamily="Segoe UI">定义组名：在每一个组的开头的&quot;#&quot;标识符后填入字段，该字段即会被程序读取作为该元素组的组名，若没有设置组名，程序将自动按先后次序添加默认排序组名</Paragraph>
+                            <Paragraph Margin="144,0,0,0" FontFamily="Segoe UI">设置多个组：在同一元素组文件中您可以设置多个组，仅仅需要保证每个组的头尾各有一个&quot;#&quot;标识符</Paragraph>
+                            <Paragraph Margin="144,0,0,0" FontFamily="Segoe UI">更新兼容性：程序更新后仍然可以以符合 v1.x 版本标准的元素资源文件（列表型）导入资源，导入后程序将自动设置组名为&quot;(Auto)&quot;</Paragraph>
+                            <Paragraph Margin="144,0,0,0" FontFamily="Segoe UI">特别注意：在设置多个组时，请注意两个元素组之间需要有两个&quot;#&quot;标识符，其中前一个标识符为上一元素组的结束标识符，后一个标识符为下一元素组的起始标识符</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">修正了结果列表同时添加多个数据时由下至上反向添加的问题，同时优化了多条数据添加的动画效果，在此感谢 @Tim 的反馈</Paragraph>
+                            <Paragraph FontFamily="Segoe UI" />
+                            <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v1.1 (Released on 20201010)</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">加快了抽取实时显示的刷新时间间隔</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">修正了语言设置中无法选择除系统语言外的语言的问题</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">优化了UI，修改了一些语句的表述，增加了一些布局元素并在背景设计上引入了亚克力材质概念</Paragraph>
+                            <Paragraph FontFamily="Segoe UI" />
+                            <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v1.0.0 (Released on 20201002)</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">为了更好地兼容Windows 10系统，同时改进软件整体设计，提升美观度，优化触控体验，我们停止了基于Winform的Let's Pick应用程序开发，改用UWP (Universal Windows Platform)重制了软件。</Paragraph>
+                            <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">在此版本中，应用程序增加了较详尽的设置菜单，应用了导航栏对页面进行了有机整合。</Paragraph>
+                        </RichTextBlock>
+                    </StackPanel>
+                    <StackPanel Margin="20">
+                        <TextBlock FontFamily="Segoe UI" x:Uid="AboutPage_Declaration" FontSize="20" 
+                                   Text="声明："/>
+                        <TextBlock Margin="36,0,0,0" FontFamily="Segoe UI" FontSize="20" x:Uid="AboutPage_DeclarationMicrosoftCopyright" TextWrapping="WrapWholeWords"
+                                   Text="Windows 10，Winform，UWP 和 Universal Windows Platform 是 Microsoft Corporation 的商标。"/>
+                        <TextBlock Margin="36,0,0,0" FontFamily="Segoe UI" FontSize="20" x:Uid="AboutPage_DeclarationOthersCopyright" TextWrapping="WrapWholeWords"
+                                   Text="本软件提及的其它公司名称，产品名称及服务名称均为其它公司各自的商标。"/>
+                        <TextBlock FontFamily="Segoe UI" FontSize="20"/>
+                        <TextBlock FontFamily="Segoe UI" Foreground="Red" FontSize="20" x:Uid="AboutPage_DeclarationMyCopyright" TextWrapping="WrapWholeWords"
+                                   Text="本软件受国际知识产权法律法规保护，详见 https://techy-wu.github.io/Let-s_Pick_UWP/blog/2021/02/08/copyright/"/>
+                        <TextBlock FontFamily="Segoe UI" Foreground="OrangeRed" FontSize="20" x:Uid="AboutPage_UpdateAndManualNote" TextWrapping="WrapWholeWords"
+                                   Text="获取软件更新及使用说明请关注网站 https://techy-wu.github.io/Let-s_Pick_UWP/"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
