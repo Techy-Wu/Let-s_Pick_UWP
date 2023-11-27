@@ -255,4 +255,22 @@
   <data name="HomePage_RandomNumber_RandomIO_Label.Text" xml:space="preserve">
     <value>随机数来自 random.org, 无种子</value>
   </data>
+  <data name="AboutPage_CoderLabel.Text" xml:space="preserve">
+    <value>编程</value>
+  </data>
+  <data name="AboutPage_Declaration" xml:space="preserve">
+    <value>声明</value>
+  </data>
+  <data name="AboutPage_DesignerLabel.Text" xml:space="preserve">
+    <value>企划</value>
+  </data>
+  <data name="AboutPage_SupportSiteRefferenceNotification.Text" xml:space="preserve">
+    <value>请浏览我们的支持网站以获取更多帮助。</value>
+  </data>
+  <data name="AboutPage_SupportURLLabel.Text" xml:space="preserve">
+    <value>支持网站</value>
+  </data>
+  <data name="AboutPage_VersionLabel.Text" xml:space="preserve">
+    <value>版本</value>
+  </data>
 </root>

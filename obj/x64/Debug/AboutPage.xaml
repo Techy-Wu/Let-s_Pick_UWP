@@ -22,7 +22,7 @@
                     X2="0"
                     Y1="10"
                     Y2="85" />
-                <TextBlock x:ConnectionId='7'
+                <TextBlock x:ConnectionId='8'
                     x:Name="SoftwareName"
                     x:Uid="AboutPage_SoftwareName"
                     FontSize="70"
@@ -52,44 +52,53 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
-                <TextBlock
+                <TextBlock x:ConnectionId='3'
+                    x:Name="VersionLabel"
+                    x:Uid="AboutPage_VersionLabel"
                     Grid.Row="0"
                     Grid.Column="1"
                     FontSize="25"
                     Text="Version:" />
-                <TextBlock x:ConnectionId='3'
+                <TextBlock x:ConnectionId='4'
                     x:Name="version_box"
+                    x:Uid="AboutPage_VersionBox"
                     Grid.Row="0"
                     Grid.Column="2"
                     FontSize="25"
                                                
                     Text="0" />
                 <TextBlock
+                    x:Uid="AboutPage_DesignerLabel"
                     Grid.Row="1"
                     Grid.Column="1"
                     FontSize="25"
                     Text="Designed by:" />
                 <TextBlock
+                    x:Uid="AboutPage_DesignerBox"
                     Grid.Row="1"
                     Grid.Column="2"
                     FontSize="25"
                     Text="Techy Wu" />
                 <TextBlock
+                    x:Uid="AboutPage_CoderLabel"
                     Grid.Row="2"
                     Grid.Column="1"
                     FontSize="25"
-                    Text="Written by:" />
+                    Text="Coded by:" />
                 <TextBlock
+                    x:Uid="AboutPage_CoderBox"
                     Grid.Row="2"
                     Grid.Column="2"
                     FontSize="25"
                     Text="Techy Wu" />
                 <TextBlock
+                    x:Uid="AboutPage_SupportURLLabel"
                     Grid.Row="3"
                     Grid.Column="1"
                     FontSize="25"
-                    Text="Supported URL:" />
-                <TextBlock x:ConnectionId='4'
+                    Text="Support Site:" />
+                <TextBlock x:ConnectionId='5'
+                    x:Uid="AboutPage_SupportURLBox"
                     Grid.Row="3"
                     Grid.Column="2"
                     Grid.ColumnSpan="2"
@@ -102,8 +111,9 @@
                     Grid.Column="1"
                     Grid.ColumnSpan="2"
                     FontSize="25"
-                    Text="© Techy Wu 2021" />
+                    Text="© Techy Wu 2023" />
                 <TextBlock
+                    x:Uid="AboutPage_SupportSiteRefferenceNotification"
                     Grid.Row="5"
                     Grid.Column="1"
                     Grid.ColumnSpan="2"
@@ -122,23 +132,26 @@
                         <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">应用程序在文件读写时仅支持 UTF-8 编码和带有BOM的 UTF-8 编码的文件，导入文件时请确认文件的编码方式，若使用其它编码将出现乱码或触发应用程序闪退。由于UWP的权限管理较特殊，在文件保存时暂时不提供任意位置保存的功能，当按下保存文件按钮后应用程序将在安全目录中创建文件并打开资源管理器，请用户自行在资源管理器中移动文件到其它文件夹中。</Paragraph>
                         <Paragraph FontFamily="Segoe UI" />
                         <Paragraph FontFamily="Segoe UI">版本特性：</Paragraph>
-                        <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.6.1 (Released on 20210501)</Paragraph>
-                        <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">修复从 random.org 服务器获取随机数闪退的问题</Paragraph>
-                        <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">更正了部分表述，尤其是 random.org 的拼写问题</Paragraph>
+                        <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.6.2 (Released on 20231127)</Paragraph>
+                        <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">提高了多语言翻译覆盖率</Paragraph>
                     </RichTextBlock>
-                    <Button x:ConnectionId='5'
+                    <Button x:ConnectionId='6'
                         x:Name="ShowHistory"
                         Margin="20"
                         Content="显示迭代历史"
                         FontSize="20"
                                                     />
-                    <RichTextBlock x:ConnectionId='6'
+                    <RichTextBlock x:ConnectionId='7'
                         x:Name="UpdateHistory"
                         Margin="20"
                         FontFamily="Segoe UI"
                         FontSize="20"
                         Visibility="Collapsed">
                         <Paragraph FontFamily="Segoe UI">迭代历史：</Paragraph>
+                        <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.6.1 (Released on 20210501)</Paragraph>
+                        <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">修复从 random.org 服务器获取随机数闪退的问题</Paragraph>
+                        <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">更正了部分表述，尤其是 random.org 的拼写问题</Paragraph>
+                        <Paragraph FontFamily="Segoe UI" />
                         <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.6 (Released on 20210218)</Paragraph>
                         <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">新增从 random.io 获取随机数的功能</Paragraph>
                         <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">优化了查询更新的方式显著提高速率</Paragraph>
@@ -211,7 +224,7 @@
                         Margin="20"
                         FontFamily="Segoe UI"
                         FontSize="20">
-                        <Paragraph FontFamily="Segoe UI">声明：</Paragraph>
+                        <Paragraph FontFamily="Segoe UI" x:Uid="AboutPage_Declaration">声明：</Paragraph>
                         <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">Windows 10，Winform，UWP 和 Universal Windows Platform 是 Microsoft Corporation 的商标。</Paragraph>
                         <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">本软件提及的其它公司名称，产品名称及服务名称均为其它公司各自的商标。</Paragraph>
                         <Paragraph FontFamily="Segoe UI" />

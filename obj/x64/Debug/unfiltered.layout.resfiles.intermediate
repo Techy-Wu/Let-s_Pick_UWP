@@ -1,4 +1,3 @@
-WinMetadata\Windows.winmd
 Assets\LargeTile.scale-100.png
 Assets\LargeTile.scale-125.png
 Assets\LargeTile.scale-150.png
@@ -44,5 +43,11 @@ Assets\Wide310x150Logo.scale-125.png
 Assets\Wide310x150Logo.scale-150.png
 Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
+AboutPage.xbf
+App.xbf
+HomePage.xbf
 Let's Pick UWP.xr.xml
+MainPage.xbf
+SettingPage.xbf
 Properties\Default.rd.xml
+WinMetadata\Windows.winmd

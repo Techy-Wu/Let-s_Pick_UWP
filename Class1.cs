@@ -19,7 +19,7 @@ namespace Let_s_Pick_UWP
 {
     class GlobalClass
     {
-        public static string current_version = "2.6.1";
+        public static string current_version = "2.6.2";
         public static string latest_version = "-1";
 
         public static ApplicationDataContainer localSettings = ApplicationData.Current.LocalSettings;

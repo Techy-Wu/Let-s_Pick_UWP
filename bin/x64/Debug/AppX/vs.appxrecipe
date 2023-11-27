@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-D05P34IN</Machine>
+    <WindowsUser>Jerry</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>6d986a2b-848c-426b-99d4-0d5f22d9dd0c</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Jerry</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Jerry\source\repos\Let%27s Pick UWP\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>E:\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Jerry\source\repos\Let%27s Pick UWP\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>9210C1A3161664F925D87AE8C87BAFB7AE58D02F1668B10CB4AE675083EF57DF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>6d986a2b-848c-426b-99d4-0d5f22d9dd0c_2.6.1.0_x64__m8wq55j45v6p0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>6d986a2b-848c-426b-99d4-0d5f22d9dd0c_m8wq55j45v6p0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>6d986a2b-848c-426b-99d4-0d5f22d9dd0c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Jerry</RegisteredPackagePublisher>
+    <RegisteredVersion>2.6.1.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-11-27T07:38:06.402</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\bin\x64\Debug\Let%27s Pick UWP.exe">
+      <PackagePath>entrypoint\Let%27s Pick UWP.exe</PackagePath>
+      <Modified>2023-11-27T07:38:04.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-03-12T22:23:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2018-10-22T17:33:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:34.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:34.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:34.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:34.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:34.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:36.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:36.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:36.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:36.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:36.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:34.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:34.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:34.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:34.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.altform-unplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:36.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:36.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:36.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:36.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:36.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:36.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:36.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-01T19:13:35.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-09-19T16:51:38.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\bin\x64\Debug\Let%27s Pick UWP.xr.xml">
+      <PackagePath>Let%27s Pick UWP.xr.xml</PackagePath>
+      <Modified>2023-11-27T07:11:49.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2023-11-27T07:34:32.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\bin\x64\Debug\AboutPage.xbf">
+      <PackagePath>AboutPage.xbf</PackagePath>
+      <Modified>2023-11-27T07:38:03.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\bin\x64\Debug\HomePage.xbf">
+      <PackagePath>HomePage.xbf</PackagePath>
+      <Modified>2023-11-27T07:34:32.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2023-11-27T07:34:32.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\bin\x64\Debug\SettingPage.xbf">
+      <PackagePath>SettingPage.xbf</PackagePath>
+      <Modified>2023-11-27T07:34:32.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2018-10-22T16:44:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2023-11-27T07:38:05.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jerry\source\repos\Let%27s Pick UWP\bin\x64\Debug\Core\Let%27s Pick UWP.exe">
+      <PackagePath>Let%27s Pick UWP.exe</PackagePath>
+      <Modified>2023-11-27T07:38:06.390</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\Jerry\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Jerry\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Jerry\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Jerry\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Jerry\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Jerry\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Jerry\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Jerry\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Jerry\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Jerry\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Jerry\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Jerry\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

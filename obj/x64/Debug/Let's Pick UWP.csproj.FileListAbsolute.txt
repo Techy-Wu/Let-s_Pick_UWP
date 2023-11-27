@@ -58,4 +58,4 @@ C:\Users\Jerry\source\repos\Let's Pick UWP\obj\x64\Debug\MultipleQualifiersPerDi
 C:\Users\Jerry\source\repos\Let's Pick UWP\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\Jerry\source\repos\Let's Pick UWP\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758264200000000.json
 C:\Users\Jerry\source\repos\Let's Pick UWP\bin\x64\Debug\Core\ForBundle\AppxManifest.xml
-C:\Users\Jerry\source\repos\Let's Pick UWP\obj\x64\Debug\Let's Pick UWP.csprojAssemblyReference.cache
+C:\Users\Jerry\source\repos\Let's Pick UWP\obj\x64\Debug\Let's Pick UWP.csproj.AssemblyReference.cache
