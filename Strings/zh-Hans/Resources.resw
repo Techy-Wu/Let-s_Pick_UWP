@@ -285,4 +285,19 @@
   <data name="AboutPage_UpdateAndManualNote.Text" xml:space="preserve">
     <value>获取软件更新及使用说明请关注网站 https://techy-wu.github.io/Let-s_Pick_UWP/</value>
   </data>
+  <data name="AboutPage_UsageNotification.Text" xml:space="preserve">
+    <value>使用注意：</value>
+  </data>
+  <data name="AboutPage_UsageNotificationDetails.Text" xml:space="preserve">
+    <value>应用程序在文件读写时仅支持 UTF-8 编码和带有BOM的 UTF-8 编码的文件，导入文件时请确认文件的编码方式，若使用其它编码将出现乱码或触发应用程序闪退。由于UWP的权限管理较特殊，在文件保存时暂时不提供任意位置保存的功能，当按下保存文件按钮后应用程序将在安全目录中创建文件并打开资源管理器，请用户自行在资源管理器中移动文件到其它文件夹中。</value>
+  </data>
+  <data name="AboutPage_Version2-6-2.Text" xml:space="preserve">
+    <value>v2.6.2 (发布于20231127)</value>
+  </data>
+  <data name="AboutPage_Version2-6-2Details.Text" xml:space="preserve">
+    <value>提高了多语言翻译覆盖率</value>
+  </data>
+  <data name="AboutPage_VersionDescription.Text" xml:space="preserve">
+    <value>版本特性：</value>
+  </data>
 </root>

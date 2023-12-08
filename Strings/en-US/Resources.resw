@@ -285,4 +285,19 @@
   <data name="AboutPage_UpdateAndManualNote.Text" xml:space="preserve">
     <value>For software and usage manuals, please refer to https://techy-wu.github.io/Let-s_Pick_UWP/</value>
   </data>
+  <data name="AboutPage_UsageNotification.Text" xml:space="preserve">
+    <value>Usage Notification</value>
+  </data>
+  <data name="AboutPage_UsageNotificationDetails.Text" xml:space="preserve">
+    <value>This software only supports documents coded by UTF-8 or UTF-8 with BOM. Please check the coding format of the ducument before attaching it to the software, otherwise incapable documents would cause malfunction of the software or even crashes. Due to the speciality of the rights control of UWP software platform, the software can not offer the function of saving documents to any determined destination pathes. Meanwhile the softeare would save the document in a safe folder provded by the system and automatically open a window of exploer to the folder. Please clip the document to your folder manually.</value>
+  </data>
+  <data name="AboutPage_Version2-6-2.Text" xml:space="preserve">
+    <value>v2.6.2 (Released on 20231127)</value>
+  </data>
+  <data name="AboutPage_Version2-6-2Details.Text" xml:space="preserve">
+    <value>Improved the covering rate of multi-languages.</value>
+  </data>
+  <data name="AboutPage_VersionDescription.Text" xml:space="preserve">
+    <value>Versions Note：</value>
+  </data>
 </root>
