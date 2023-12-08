@@ -124,17 +124,15 @@
                     Grid.Column="0"
                     Grid.ColumnSpan="3"
                     Orientation="Vertical">
-                    <RichTextBlock
-                        Margin="20"
-                        FontFamily="Segoe UI"
-                        FontSize="20">
-                        <Paragraph FontFamily="Segoe UI">使用注意：</Paragraph>
-                        <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">应用程序在文件读写时仅支持 UTF-8 编码和带有BOM的 UTF-8 编码的文件，导入文件时请确认文件的编码方式，若使用其它编码将出现乱码或触发应用程序闪退。由于UWP的权限管理较特殊，在文件保存时暂时不提供任意位置保存的功能，当按下保存文件按钮后应用程序将在安全目录中创建文件并打开资源管理器，请用户自行在资源管理器中移动文件到其它文件夹中。</Paragraph>
-                        <Paragraph FontFamily="Segoe UI" />
-                        <Paragraph FontFamily="Segoe UI">版本特性：</Paragraph>
-                        <Paragraph Margin="36,0,0,0" FontFamily="Segoe UI">v2.6.2 (Released on 20231127)</Paragraph>
-                        <Paragraph Margin="72,0,0,0" FontFamily="Segoe UI">提高了多语言翻译覆盖率</Paragraph>
-                    </RichTextBlock>
+                    <StackPanel
+                        Margin="20">
+                        <TextBlock FontFamily="Segoe UI" FontSize="20" x:Uid="AboutPage_UsageNotification" Text="使用注意："/>
+                        <TextBlock Margin="36,0,0,0" FontFamily="Segoe UI" FontSize="20" x:Uid="AboutPage_UsageNotificationDetails" Text ="应用程序在文件读写时仅支持 UTF-8 编码和带有BOM的 UTF-8 编码的文件，导入文件时请确认文件的编码方式，若使用其它编码将出现乱码或触发应用程序闪退。由于UWP的权限管理较特殊，在文件保存时暂时不提供任意位置保存的功能，当按下保存文件按钮后应用程序将在安全目录中创建文件并打开资源管理器，请用户自行在资源管理器中移动文件到其它文件夹中。"/>
+                        <TextBlock FontFamily="Segoe UI" FontSize="20"/>
+                        <TextBlock FontFamily="Segoe UI" FontSize="20" x:Uid="AboutPage_VersionDescription" Text="'版本特性："/>
+                        <TextBlock Margin="36,0,0,0" FontFamily="Segoe UI" FontSize="20" x:Uid="AboutPage_Version2.6.2" Text="v2.6.2 (发布于20231127)"/>
+                        <TextBlock Margin="72,0,0,0" FontFamily="Segoe UI" FontSize="20" x:Uid="AboutPage_Version2.6.2Details" Text="提高了多语言翻译覆盖率"/>
+                    </StackPanel>
                     <Button
                         x:Name="ShowHistory"
                         Margin="20"
