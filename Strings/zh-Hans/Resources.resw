@@ -172,7 +172,7 @@
     <value>从文件导入设置</value>
   </data>
   <data name="SettingPage_Language.Text" xml:space="preserve">
-    <value>语言 / Language</value>
+    <value>语言</value>
   </data>
   <data name="SettingPage_ListDescription.Text" xml:space="preserve">
     <value>组</value>

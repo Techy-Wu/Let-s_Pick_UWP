@@ -172,7 +172,7 @@
     <value>從檔案導入設置</value>
   </data>
   <data name="SettingPage_Language.Text" xml:space="preserve">
-    <value>語言 / Language</value>
+    <value>語言</value>
   </data>
   <data name="SettingPage_ListDescription.Text" xml:space="preserve">
     <value>組</value>
