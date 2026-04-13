@@ -124,7 +124,7 @@
     <value>加速中...</value>
   </data>
   <data name="HomePage_AutoStopSwitch_Header.Text" xml:space="preserve">
-    <value>自動停止</value>
+    <value>自行終止</value>
   </data>
   <data name="HomePage_FinishButton.Content" xml:space="preserve">
     <value>結束</value>
@@ -244,10 +244,10 @@
     <value>更新</value>
   </data>
   <data name="SettingPage_UpdateSearchTimeout.Header" xml:space="preserve">
-    <value>檢查更新超時 (ms)</value>
+    <value>檢視更新超時 (ms)</value>
   </data>
   <data name="HomePage_RandomNumber_Requesting.Text" xml:space="preserve">
-    <value>正在向 random.org 請求自然隨機數</value>
+    <value>正向 random.org 請求自然隨機數</value>
   </data>
   <data name="rand_dependence_7.Text" xml:space="preserve">
     <value>直接從 random.org 獲取</value>
@@ -292,10 +292,11 @@
     <value>本軟體在檔案讀寫時只支援UTF-8編碼和帶有BOM的UTF-8編碼的檔案，導入檔案時請確認檔案的編碼方式，若使用其他編碼將出現亂碼甚至造成軟體宕機。由於UWP的權限管理較特殊，在檔案保存時暫時不支援任意位置保存的功能，當按下保持檔案按鈕后軟體將在安全目錄中創建檔案並打開資源管理器，請用戶自行在資源管理器中剪貼檔案到其他檔案夾中。</value>
   </data>
   <data name="AboutPage_Version2-6-2.Text" xml:space="preserve">
-    <value>v2.6.2 (發佈於20231127)</value>
+    <value>v2.6.2 (發佈於20260413)</value>
   </data>
   <data name="AboutPage_Version2-6-2Details.Text" xml:space="preserve">
-    <value>提高了多語言翻譯的覆蓋率</value>
+    <value>提高了多語言翻譯的覆蓋率
+修復了一些錯誤</value>
   </data>
   <data name="AboutPage_VersionDescription.Text" xml:space="preserve">
     <value>版本特性：</value>

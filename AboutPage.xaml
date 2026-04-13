@@ -130,7 +130,7 @@
                         <TextBlock FontFamily="Segoe UI" FontSize="20"/>
                         <TextBlock FontFamily="Segoe UI" FontSize="20" x:Uid="AboutPage_VersionDescription" Text="'版本特性："/>
                         <TextBlock Margin="36,0,0,0" FontFamily="Segoe UI" FontSize="20" x:Uid="AboutPage_Version2-6-2" Text="v2.6.2 (发布于20231127)"/>
-                        <TextBlock Margin="72,0,0,0" FontFamily="Segoe UI" FontSize="20" x:Uid="AboutPage_Version2-6-2Details" Text="提高了多语言翻译覆盖率" TextWrapping="WrapWholeWords"/>
+                        <TextBlock Margin="72,0,0,0" FontFamily="Segoe UI" FontSize="20" x:Uid="AboutPage_Version2-6-2Details" Text="提高了多语言翻译覆盖率修复了一些错误" TextWrapping="WrapWholeWords"/>
                     </StackPanel>
                     <Button
                         x:Name="ShowHistory"

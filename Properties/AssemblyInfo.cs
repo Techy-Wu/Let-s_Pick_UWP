@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("Let's Pick UWP")]
+[assembly: AssemblyTitle("Lets' Pick UWP")]
 [assembly: AssemblyDescription("See at https://techy-wu.github.io/Let-s_Pick_UWP/")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Let's Pick UWP")]
-[assembly: AssemblyCopyright("Copyright © Techy_Wu@outlook.com 2020")]
+[assembly: AssemblyCopyright("Copyright © Techy_Wu@outlook.com 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
