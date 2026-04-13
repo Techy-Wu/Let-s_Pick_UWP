@@ -168,5 +168,27 @@ namespace Let_s_Pick_UWP
                 }
             }
         }
+
+        public static T GetSetting<T>(string key, T defaultValue)
+        {
+            var values = localSettings.Values;
+            object raw = null;
+            if (values.ContainsKey(key))
+                raw = values[key];
+
+            if (raw != null)
+            {
+                try
+                {
+                    return (T)Convert.ChangeType(raw, typeof(T));
+                }
+                catch
+                {
+                    // 类型不匹配时返回默认值
+                    return defaultValue;
+                }
+            }
+            return defaultValue;
+        }
     }
 }

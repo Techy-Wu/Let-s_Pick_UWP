@@ -82,7 +82,7 @@ namespace Let_s_Pick_UWP
             //read tick
             try
             {
-                GlobalClass.auto_stop_tick = (int)GlobalClass.localSettings.Values["Auto_Stop_Tick"];
+                GlobalClass.auto_stop_tick = GlobalClass.GetSetting<int>("Auto_Stop_Tick", GlobalClass.auto_stop_tick_min);
             }
             catch (Exception)
             {
@@ -92,7 +92,7 @@ namespace Let_s_Pick_UWP
             //read background setting
             try
             {
-                GlobalClass.toolbar_background_on = (bool)GlobalClass.localSettings.Values["ToolBar_Background_State"];
+                GlobalClass.toolbar_background_on = GlobalClass.GetSetting<bool>("ToolBar_Background_State", false);
             }
             catch (Exception)
             {
@@ -102,7 +102,7 @@ namespace Let_s_Pick_UWP
             //read list id
             try
             {
-                GlobalClass.current_list_id = (int)GlobalClass.localSettings.Values["Current_List_id"];
+                GlobalClass.current_list_id = GlobalClass.GetSetting<int>("Current_List_id", 0);
             }
             catch (Exception)
             {
@@ -112,7 +112,7 @@ namespace Let_s_Pick_UWP
             //read random seed visibility
             try
             {
-                GlobalClass.randseed_visible = (bool)GlobalClass.localSettings.Values["RandSeed_Visible_State"];
+                GlobalClass.randseed_visible = GlobalClass.GetSetting<bool>("RandSeed_Visible_State", false);
             }
             catch (Exception)
             {
@@ -122,7 +122,7 @@ namespace Let_s_Pick_UWP
             //read rand method id
             try
             {
-                GlobalClass.RandMethod = (int)GlobalClass.localSettings.Values["RandMethod"];
+                GlobalClass.RandMethod = GlobalClass.GetSetting<int>("RandMethod", 1);
             }
             catch (Exception)
             {
@@ -145,7 +145,7 @@ namespace Let_s_Pick_UWP
             //read whether pre caculate or not
             try
             {
-                GlobalClass.pre_release = (bool)GlobalClass.localSettings.Values["Pre_Release"];
+                GlobalClass.pre_release = GlobalClass.GetSetting<bool>("Pre_Release", false);
             }
             catch (Exception)
             {
@@ -155,7 +155,7 @@ namespace Let_s_Pick_UWP
             //read whether accept variable seed or not
             try
             {
-                GlobalClass.variable_seed = (bool)GlobalClass.localSettings.Values["Variable_Seed"];
+                GlobalClass.variable_seed = GlobalClass.GetSetting<bool>("Variable_Seed", false);
             }
             catch (Exception)
             {
@@ -165,7 +165,7 @@ namespace Let_s_Pick_UWP
             //read request timeout value
             try
             {
-                GlobalClass.req_time_out = (int)GlobalClass.localSettings.Values["UpdateRequestTimeout"];
+                GlobalClass.req_time_out = GlobalClass.GetSetting<int>("UpdateRequestTimeout", 5000);
             }
             catch (Exception)
             {
